@@ -1,0 +1,5 @@
+distancia = float(input("Digite a distância em metros: "))
+print(f"A distância em centímetros é {distancia * 100}cm")
+print(f"A distância em milímetros é {distancia * 1000}mm")
+print(f"A distância em quilômetros é {distancia / 1000}km")
+print(f"A distância em hectômetros é {distancia / 100}hm")
